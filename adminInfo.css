@@ -153,7 +153,108 @@ margin-left: 3px;
 color: #00334E;
 }
  
-  @media screen and (max-height: 450px) {
+  @media  screen and (max-height: 491px) {
     .sidenav {padding-top: 15px;}
     .sidenav a {font-size: 18px;}
   }
+  @media (max-width:491px) {
+    .admin{
+      width: 9000px;
+    }
+    .top , .search{
+      width: 500%;
+    }
+    h1 {
+      font-size: 20px;
+    }
+    
+    /* Center the image on small screens */
+    img {
+      display: block;
+      margin: 0 auto;
+    }
+    .content {
+      padding: 20px;
+    }
+  
+    .infoText{
+      margin-left: 20px;
+    }
+    .InputAdmin{
+      margin-left: -180px;
+    }
+    .editClass{
+      margin-left: -200px;
+    }
+    .edit{
+      margin-left: 45px;
+    }
+    
+    
+  }
+  /* CSS code for making the webpage responsive */
+
+/* Styles for devices with a max width of 767px */
+@media (min-width:491px) and (max-width: 767px) {
+  .admin{
+    width: 200%;
+  }
+  .top , .search{
+    width: 200%;
+  }
+  /* Adjust the font size for small screens */
+  body {
+    font-size: 20px;
+  }
+  
+  /* Reduce the size of the heading for small screens */
+  h1 {
+    font-size: 24px;
+  }
+  
+  /* Center the image on small screens */
+  img {
+    display: block;
+    margin: 0 auto;
+  }
+}
+
+/* Styles for devices with a width between 768px and 1023px */
+@media (min-width: 768px) and (max-width: 1023px) {
+  /* Increase the font size for medium screens */
+ 
+  /* Adjust the padding around the content for medium screens */
+  .content {
+    padding: 20px;
+  }
+  .top,.search{
+    width: 98%;
+  }
+  .infoText{
+    margin-left: 20px;
+  }
+  .InputAdmin{
+    margin-left: -180px;
+  }
+  .editClass{
+    margin-left: -200px;
+  }
+  .edit{
+    margin-left: 45px;
+  }
+
+}
+
+/* Styles for devices with a width of 1024px or greater */
+@media (min-width: 1024px) {
+  /* Increase the font size for large screens */
+  body {
+    font-size: 20px;
+  }
+  
+  /* Increase the width of the content for large screens */
+  .content {
+    width: 800px;
+    margin: 0 auto;
+  }
+}
