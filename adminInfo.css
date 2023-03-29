@@ -159,7 +159,7 @@ color: #00334E;
   }
   @media (max-width:491px) {
     .admin{
-      width: 9000px;
+      width: 9001px;
     }
     .top , .search{
       width: 500%;
