@@ -5,7 +5,7 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Transport Management System</title>
-    <link rel="stylesheet" href="AddStudent.css">
+    <link rel="stylesheet" href="../Css/AddStudent.css">
 </head>
 <body>
     <div id="mySidenav" class="sidenav">
@@ -17,7 +17,7 @@
 	  </div>
 <div class="top">
     <div class="image header">
-        <img src="./Resources/GIS Logo.png" alt="" onclick="openNav()" height="143px" width="140px" />
+        <img src="../Resources/GIS Logo.png" alt="" onclick="openNav()" height="143px" width="140px" />
     </div>
     <div class="header welcomeText">
         <div class="adminHeading">
@@ -67,7 +67,10 @@
 
                 <label for="bus_route">Bus Route<span class="required"></span></label>
                 <input type="text" id="bus_route" name="bus_route" required>
-    
+                <label for="fees_paid">Fees Paid<span class="required1"></span></label>
+                <input type="text" id="fees_paid" name="fees_paid" required>
+				<label for="fees_due">Fees Due<span class="required1"></span></label>
+                <input type="text" id="fees_due" name="fees_due" required>
                 <label for="photo">Upload Photo</label>
                 <input type="file" id="photo" name="photo">
     

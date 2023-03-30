@@ -5,7 +5,7 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Transport Management System</title>
-    <link rel="stylesheet" href="AddStudent.css">
+    <link rel="stylesheet" href="../Css/AddStudent.css">
 </head>
 <body>
     <div id="mySidenav" class="sidenav">
@@ -17,7 +17,7 @@
 	  </div>
 <div class="top">
     <div class="image header">
-        <img src="./Resources/GIS Logo.png" alt="" onclick="openNav()" height="143px" width="140px" />
+        <img src="../Resources/GIS Logo.png" alt="" onclick="openNav()" height="143px" width="140px" />
     </div>
     <div class="header welcomeText">
         <div class="adminHeading">
@@ -32,13 +32,13 @@
 		<div class="form-container">
 			<div class="left">
 				<label for="name">Name<span class="required"></span></label>
-				<input type="text" id="name" name="name" required>
+				<input type="text" id="name" name="name">
 
 				<label for="dob">Date of Birth<span class="required"></span></label>
-				<input type="date" id="dob" name="dob" required>
+				<input type="date" id="dob" name="dob">
 
 				<label for="gender">Gender<span class="required"></span></label>
-				<select id="gender" name="gender" required>
+				<select id="gender" name="gender" >
 					<option value="">Select Gender</option>
 					<option value="male">Male</option>
 					<option value="female">Female</option>
@@ -46,28 +46,31 @@
 				</select>
 
 				<label for="father_name">Father's Name<span class="required"></span></label>
-				<input type="text" id="father_name" name="father_name" required>
+				<input type="text" id="father_name" name="father_name">
 
 				<label for="mother_name">Mother's Name<span class="required"></span></label>
-				<input type="text" id="mother_name" name="mother_name" required>
+				<input type="text" id="mother_name" name="mother_name">
 
 				<label for="phone">Phone Number<span class="required"></span></label>
-				<input type="tel" id="phone" name="phone" required>
+				<input type="tel" id="phone" name="phone" >
 			</div>
 
 			<div class="right">
 				<label for="admission_number">Admission Number<span class="required"></span></label>
-				<input type="text" id="admission_number" name="admission_number" required>
+				<input type="text" id="admission_number" name="admission_number">
 
 				<label for="class">Class<span class="required"></span></label>
-				<input type="text" id="class" name="class" required>
+				<input type="text" id="class" name="class">
 
 				<label for="bus_number">Bus Number<span class="required"></span></label>
-				<input type="text" id="bus_number" name="			bus_number" required>
+				<input type="text" id="bus_number" name="bus_number" >
 
                 <label for="bus_route">Bus Route<span class="required"></span></label>
-                <input type="text" id="bus_route" name="bus_route" required>
-    
+                <input type="text" id="bus_route" name="bus_route" >
+				<label for="fees_paid">Fees Paid<span class="required1"></span></label>
+                <input type="text" id="fees_paid" name="fees_paid" required>
+				<label for="fees_due">Fees Due<span class="required1"></span></label>
+                <input type="text" id="fees_due" name="fees_due" required>
                 <label for="photo">Upload Photo</label>
                 <input type="file" id="photo" name="photo">
     
